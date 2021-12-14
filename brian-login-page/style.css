@@ -1,0 +1,100 @@
+body {
+    background-color: grey;
+    font-family: lato;
+    font-weight: 300;
+}
+
+.container {
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+.grid_img {
+    background: url("images/chewy-I-rgDPLKogs-unsplash.jpg");
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.signin-form {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    padding: 70px 30px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.signin-form p {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+.signin-form input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signin-form input[type="text"], input[type="password"] 
+{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    height: 40px;
+    font-size: 14px;
+}
+
+.signin-form input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 20%;
+    width: 60%;
+
+    background: rgb(150, 131, 131);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.signin-form input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: rgb(210, 190, 190);
+    color: black;
+}
+
+.signin-form a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(57, 56, 56);
+    display: block;
+}
+
+.signin-form a:hover {
+    color: rgb(210, 190, 190);;
+}
